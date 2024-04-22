@@ -4,60 +4,58 @@
 # http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
 # http://git-scm.com/docs/gitignore
 
-# 001_projectSetup
-
 ###########################
 # ignore generated binaries
 # but not the data folder
 ###########################
-001_projectSetup/bin/*
-001_projectSetup/!/bin/data/
+*/bin/*
+*/!/bin/data/
 #########
 # general
 #########
-001_projectSetup/[Bb]uild/
-001_projectSetup/[Oo]bj/
-001_projectSetup/*.o
-001_projectSetup/[Dd]ebug*/
-001_projectSetup/[Rr]elease*/
-001_projectSetup/*.mode*
-001_projectSetup/*.app/
-001_projectSetup/*.pyc
-001_projectSetup/.svn/
-001_projectSetup/*.log
+*/[Bb]uild/
+*/[Oo]bj/
+*/*.o
+*/[Dd]ebug*/
+*/[Rr]elease*/
+*/*.mode*
+*/*.app/
+*/*.pyc
+*/.svn/
+*/*.log
 ########################
 # IDE files which should
 ########################
 # XCode
-001_projectSetup/*.pbxuser
-001_projectSetup/*.perspective
-001_projectSetup/*.perspectivev3
-001_projectSetup/*.mode1v3
-001_projectSetup/*.mode2v3
+*/*.pbxuser
+*/*.perspective
+*/*.perspectivev3
+*/*.mode1v3
+*/*.mode2v3
 # XCode 4
 *.xccheckout
 xcuserdata/
 # Visual Studio
-001_projectSetup/*.sdf
-001_projectSetup/*.opensdf
-001_projectSetup/*.suo
-001_projectSetup/*.pdb
-001_projectSetup/*.ilk
-001_projectSetup/*.aps
-001_projectSetup/ipch/
+*/*.sdf
+*/*.opensdf
+*/*.suo
+*/*.pdb
+*/*.ilk
+*/*.aps
+*/ipch/
 # Visual Studio Code 
-001_projectSetup/.vscode/browse.db
-001_projectSetup/.vscode/browse.db-shm
-001_projectSetup/.vscode/browse.db-wal
+*/.vscode/browse.db
+*/.vscode/browse.db-shm
+*/.vscode/browse.db-wal
 # Eclipse
-001_projectSetup/.metadata
-001_projectSetup/local.properties
-001_projectSetup/.externalToolBuilders
+*/.metadata
+*/local.properties
+*/.externalToolBuilders
 # Android Studio
-001_projectSetup/.gradle
-001_projectSetup//local.properties
-001_projectSetup//.idea/workspace.xml
-001_projectSetup//.idea/libraries
+*/.gradle
+*//local.properties
+*//.idea/workspace.xml
+*//.idea/libraries
 
 
 
