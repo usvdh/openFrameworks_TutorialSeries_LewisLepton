@@ -24,4 +24,5 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg) override;
 	
 	ofTrueTypeFont font;
+	string text;
 };
