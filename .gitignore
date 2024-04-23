@@ -9,7 +9,7 @@
 # but not the data folder
 ###########################
 */bin/*
-*/!/bin/data/
+!/*/bin/data/
 #########
 # general
 #########
@@ -43,7 +43,7 @@ xcuserdata/
 */*.ilk
 */*.aps
 */ipch/
-# Visual Studio Code 
+# Visual Studio Code
 */.vscode/browse.db
 */.vscode/browse.db-shm
 */.vscode/browse.db-wal
