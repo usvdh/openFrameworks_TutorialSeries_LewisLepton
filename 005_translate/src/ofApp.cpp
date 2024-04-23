@@ -12,7 +12,11 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    ofTranslate(0, 0);
+    ofDrawCircle(128, 128, 64);
 
+    ofTranslate(ofGetWidth() / 2, ofGetHeight() / 2);
+    ofDrawCircle(0, 0, 64);
 }
 
 //--------------------------------------------------------------
