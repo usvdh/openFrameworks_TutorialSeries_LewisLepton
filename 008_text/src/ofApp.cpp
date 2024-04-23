@@ -12,7 +12,8 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    ofSetColor(0);
+    ofDrawBitmapString("hallo hallo ik ben niet de coding trein", 300, 300);
 }
 
 //--------------------------------------------------------------
