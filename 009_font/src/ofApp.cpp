@@ -2,7 +2,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+    font.load("timrom.ttf", 32);
+    text = "hallo ik ben een beetje moe vandaag";
 }
 
 //--------------------------------------------------------------
@@ -12,7 +13,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    font.drawString(text, ofGetWidth() / 2 - font.stringWidth(text) / 2, ofGetHeight() / 2 - font.stringHeight(text) / 2);
 }
 
 //--------------------------------------------------------------
